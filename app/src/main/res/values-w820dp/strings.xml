@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">SAA</string>
+
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Turmas</item>
+        <item>Sobre</item>
+        <item>Sair</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home_black_24dp</item>
+        <item>@drawable/ic_school_black_24dp</item>
+        <item>@drawable/ic_chrome_reader_mode_black_24dp</item>
+        <item>@drawable/ic_exit_to_app_black_24dp</item>
+    </array>
+
+    <string name="sobre_aplicacao">
+        Sistema de Avaliação de Aulas \n\n
+        Foi desenvolvido com intuito de ajudar a avaliação e desenvolvimento profissional dos professores. Geralmente as instituições de ensino superior fazem uma avaliação do professor junto aos alunos, no final de cada semestre para saber se ao longo deste período o professor gerou uma boa impressão com seu método de ensino e suas técnicas.
+    </string>
+
+    <string name="bem_vindo">Bem-Vindo(a),</string>
+    <string name="txt_bem_vindo">
+        Sistema de Avaliação de Aula
+    </string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="corporight">© 2016 SAA Mobile </string>
+
+    <!-- Strings related to login -->
+    <string name="label_login">Login</string>
+    <string name="prompt_email">Nome de usuário</string>
+    <string name="prompt_password">Informe sua Senha</string>
+    <string name="action_sign_in">Entrar</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="error_invalid_email">O Usuário é inválida</string>
+    <string name="error_invalid_password">O password é muito pequeno</string>
+    <string name="error_incorrect_password">Esse password está incorreto</string>
+    <string name="error_field_required">Esse campo é obrigatório</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- Strings related to Turmas detail-->
+    <string name="turmas_detail">Detalhes da Turma</string>
+    <string name="label_disciplina">Disciplina: </string>
+    <string name="label_semestre">Semestre: </string>
+    <string name="label_universidade">Universidade: </string>
+    <string name="label_professor">Professor: </string>
+
+
+    <!-- Strings related to Nova Turmas -->
+    <string name="label_nova_turmas">Nova Turma</string>
+    <string name="hint_assunto">Nome</string>
+    <string name="hint_dsc_turmas">Descrição da turma</string>
+    <string name="err_msg_assunto">Insira um assunto para a turma</string>
+    <string name="err_msg_dsc_turmas">Insira uma descrição para a turma</string>
+    <string name="btn_salvar">Salvar</string>
+
+    <!-- Strings related to Aulas detail-->
+    <string name="agendamento_detail">Detalhes da Aula</string>
+    <string name="label_num_aula">Nº da Aula: </string>
+    <string name="label_data_inicio_aula">Data Início: </string>
+    <string name="label_data_fim_aula">Data Fim: </string>
+    <string name="label_titulo_aula">Título do Aula: </string>
+    <string name="label_dsc_aula_detail">Descrição do Aula: </string>
+    <string name="label_dados_turmas">Dados da turma</string>
+    <string name="label_solicitante_aula_detail">Add aula: </string>
+
+    <!--Strings generics-->
+    <string name="label_status">Disciplina: </string>
+
+</resources>

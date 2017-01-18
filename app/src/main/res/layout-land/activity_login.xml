@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/blue"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/label_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_login"
+        android:textSize="@dimen/fab_icon_size"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="120dp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/txt_email"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label_login"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="25dp"
+        android:hint="@string/prompt_email"
+        />
+
+    <EditText
+        android:id="@+id/txt_password"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:maxLength="9"
+        android:inputType="numberPassword"
+        android:hint="@string/prompt_password"
+        android:layout_below="@id/txt_email"/>
+
+    <Button
+        android:id="@+id/btn_loggar"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/action_sign_in"
+        android:layout_below="@id/txt_password"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/corporight"
+        android:gravity="bottom|center"/>
+
+    </RelativeLayout>
+</LinearLayout>
